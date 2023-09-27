@@ -42,7 +42,7 @@ p {
   border-radius: 4px;
   color: #000000;
   text-transform: uppercase;
-  border: 2px solid transparent;
+  border: 2px solid black;
 }
 
 .menu a:hover {
@@ -126,4 +126,35 @@ p {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .introducao {
+    text-align:right;
+    background-color: #f7f7f7;
+  }
+
+  .detalhe {
+    position: static;
+  }
+
+  .subtitulo {
+    text-align: right;
+  }
+
+  .vantagens {
+    background-color: #f7f7f7;
+  }
 }
