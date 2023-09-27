@@ -128,7 +128,7 @@ p {
   box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .conteudo {
     display: grid;
     grid-template-columns: 1fr;
